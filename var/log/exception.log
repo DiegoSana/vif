@@ -1,0 +1,285 @@
+2017-02-20T15:50:45+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(55): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T15:50:57+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(55): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T15:51:52+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(56): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T15:52:57+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(55): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T15:54:09+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(55): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T15:56:25+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(55): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T15:56:31+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(55): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T15:57:16+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(55): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T17:02:03+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(55): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T17:03:40+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(55): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T17:05:39+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Magentostudy_News_Block_News' in /var/www/121ecommmerce/training1/app/Mage.php:595
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magentostudy_ne...', Array)
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magentostudy_ne...', 'news.item')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magentostudy_ne...', 'news.item')
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/121ecommmerce/training1/app/code/community/Magentostudy/News/controllers/IndexController.php(56): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Magentostudy_News_IndexController->viewAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T17:55:51+00:00 ERR (3): 
+exception 'Exception' with message 'Notice: Undefined index: custom_style_2  in /var/www/121ecommmerce/training1/app/design/frontend/base/default/template/porto/css/settings.phtml on line 272' in /var/www/121ecommmerce/training1/app/code/core/Mage/Core/functions.php:245
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/design/frontend/base/default/template/porto/css/settings.phtml(272): mageCoreErrorHandler(8, 'Undefined index...', '/var/www/121eco...', 272, Array)
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(241): include('/var/www/121eco...')
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(272): Mage_Core_Block_Template->fetchView('frontend/base/d...')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(286): Mage_Core_Block_Template->renderView()
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Abstract.php(923): Mage_Core_Block_Template->_toHtml()
+#5 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(36): Mage_Core_Block_Abstract->toHtml()
+#6 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(24): Smartwave_Porto_Model_Cssconfig_Generator->generateStoreCss('settings', 'default')
+#7 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(17): Smartwave_Porto_Model_Cssconfig_Generator->generateWebsiteCss('settings', 'base')
+#8 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/controllers/Adminhtml/Porto/DemoController.php(15): Smartwave_Porto_Model_Cssconfig_Generator->generateCss('settings', NULL, NULL)
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smartwave_Porto_Adminhtml_Porto_DemoController->importAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('import')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T17:55:51+00:00 ERR (3): 
+exception 'Exception' with message 'Notice: Undefined index: footer_middle_2_bgcolor  in /var/www/121ecommmerce/training1/app/design/frontend/base/default/template/porto/css/design.phtml on line 788' in /var/www/121ecommmerce/training1/app/code/core/Mage/Core/functions.php:245
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/design/frontend/base/default/template/porto/css/design.phtml(788): mageCoreErrorHandler(8, 'Undefined index...', '/var/www/121eco...', 788, Array)
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(241): include('/var/www/121eco...')
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(272): Mage_Core_Block_Template->fetchView('frontend/base/d...')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(286): Mage_Core_Block_Template->renderView()
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Abstract.php(923): Mage_Core_Block_Template->_toHtml()
+#5 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(36): Mage_Core_Block_Abstract->toHtml()
+#6 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(24): Smartwave_Porto_Model_Cssconfig_Generator->generateStoreCss('design', 'default')
+#7 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(17): Smartwave_Porto_Model_Cssconfig_Generator->generateWebsiteCss('design', 'base')
+#8 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/controllers/Adminhtml/Porto/DemoController.php(16): Smartwave_Porto_Model_Cssconfig_Generator->generateCss('design', NULL, NULL)
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smartwave_Porto_Adminhtml_Porto_DemoController->importAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('import')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T18:08:53+00:00 ERR (3): 
+exception 'Exception' with message 'Notice: Undefined index: sticky_header_mobile  in /var/www/121ecommmerce/training1/app/design/frontend/base/default/template/porto/css/settings.phtml on line 67' in /var/www/121ecommmerce/training1/app/code/core/Mage/Core/functions.php:245
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/design/frontend/base/default/template/porto/css/settings.phtml(67): mageCoreErrorHandler(8, 'Undefined index...', '/var/www/121eco...', 67, Array)
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(241): include('/var/www/121eco...')
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(272): Mage_Core_Block_Template->fetchView('frontend/base/d...')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(286): Mage_Core_Block_Template->renderView()
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Abstract.php(923): Mage_Core_Block_Template->_toHtml()
+#5 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(36): Mage_Core_Block_Abstract->toHtml()
+#6 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(24): Smartwave_Porto_Model_Cssconfig_Generator->generateStoreCss('settings', 'default')
+#7 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(17): Smartwave_Porto_Model_Cssconfig_Generator->generateWebsiteCss('settings', 'base')
+#8 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/controllers/Adminhtml/Porto/DemoController.php(15): Smartwave_Porto_Model_Cssconfig_Generator->generateCss('settings', NULL, NULL)
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smartwave_Porto_Adminhtml_Porto_DemoController->importAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('import')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
+2017-02-20T18:08:53+00:00 ERR (3): 
+exception 'Exception' with message 'Notice: Undefined index: header_menu_classicmenu_bordercolor  in /var/www/121ecommmerce/training1/app/design/frontend/base/default/template/porto/css/design.phtml on line 687' in /var/www/121ecommmerce/training1/app/code/core/Mage/Core/functions.php:245
+Stack trace:
+#0 /var/www/121ecommmerce/training1/app/design/frontend/base/default/template/porto/css/design.phtml(687): mageCoreErrorHandler(8, 'Undefined index...', '/var/www/121eco...', 687, Array)
+#1 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(241): include('/var/www/121eco...')
+#2 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(272): Mage_Core_Block_Template->fetchView('frontend/base/d...')
+#3 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Template.php(286): Mage_Core_Block_Template->renderView()
+#4 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Block/Abstract.php(923): Mage_Core_Block_Template->_toHtml()
+#5 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(36): Mage_Core_Block_Abstract->toHtml()
+#6 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(24): Smartwave_Porto_Model_Cssconfig_Generator->generateStoreCss('design', 'default')
+#7 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/Model/Cssconfig/Generator.php(17): Smartwave_Porto_Model_Cssconfig_Generator->generateWebsiteCss('design', 'base')
+#8 /var/www/121ecommmerce/training1/app/code/local/Smartwave/Porto/controllers/Adminhtml/Porto/DemoController.php(16): Smartwave_Porto_Model_Cssconfig_Generator->generateCss('design', NULL, NULL)
+#9 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Smartwave_Porto_Adminhtml_Porto_DemoController->importAction()
+#10 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('import')
+#11 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/121ecommmerce/training1/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/121ecommmerce/training1/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/121ecommmerce/training1/index.php(83): Mage::run('', 'store')
+#15 {main}
