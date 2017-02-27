@@ -5,7 +5,6 @@
 /app/etc/local.xml
 /tmp/*
 /docs
-*.sql
 *.tar
 *.tar.gz
 *.gz
