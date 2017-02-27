@@ -1,0 +1,17 @@
+.DS_STORE
+.idea
+/media
+/var
+/app/etc/local.xml
+/tmp/*
+/docs
+*.sql
+*.tar
+*.tar.gz
+*.gz
+*.zip
+*.rar
+/test.php
+/n98-magerun.phar
+node_modules
+xdebug/
