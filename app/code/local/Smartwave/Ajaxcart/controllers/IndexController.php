@@ -58,7 +58,7 @@ class Smartwave_Ajaxcart_IndexController extends Mage_Checkout_CartController
                     else
                         $product_image_src=Mage::helper('catalog/image')->init($product, 'small_image')->resize($ratio_width,$ratio_height);
                     $product_image = '<img src="'.$product_image_src.'" class="product-image" alt=""/>';
-					$message = '<div class="msg">'.$this->__("You've just added this product to the cart:").'<p class="product-name theme-color">'.Mage::helper('core')->htmlEscape($product->getName()).'</p><div class="timer theme-color">'.$autoclose.'</div></div>'.$product_image;
+					$message = '<div class="msg">'.$this->__("Ya se agregó este producto a tu pedido:").'<p class="product-name theme-color">'.Mage::helper('core')->htmlEscape($product->getName()).'</p><div class="timer theme-color">'.$autoclose.'</div></div>'.$product_image;
 					$response['status'] = 'SUCCESS';
 					$response['message'] = $message;
 					//New Code Here
