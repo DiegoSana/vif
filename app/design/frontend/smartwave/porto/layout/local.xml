@@ -273,6 +273,9 @@
             </block>
             <remove name="pageHeader"/>
         </reference>
+        <reference name="content">
+            <block before="content" type="catalog/product_list" name="home.catalog.product.list" template="catalog/product/list.phtml" />
+        </reference>
         <reference name="after_body_start">
             <block type="core/template" name="home_slider">
                 <action method="setTemplate" ifconfig="homeslider/general/slider_type" condition="1"><template>homeslider/home_slider_top.phtml</template></action>
