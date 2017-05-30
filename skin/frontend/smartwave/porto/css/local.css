@@ -2241,7 +2241,7 @@ li.etalage_small_thumbs{margin-top:8px;top:100%}
 
 .footer .social-icons{float:left}
 .social-icons a:first-child{margin:0}
-.footer .social-icons a{background-color:#9e9e9e;border-radius:50%}
+.footer .social-icons a{background-color:#f28c40;border-radius:50%}
 .footer .social-icons a.icon1-class:hover{background-color:#3c599b}
 .footer .social-icons a.icon2-class:hover{background-color:#1ca8e3}
 .footer .social-icons a.icon3-class:hover{background-color:#4975b6}
@@ -2582,7 +2582,7 @@ h2.sidebar-title{margin-bottom:20px;font-size:16px;font-weight:bold;text-transfo
 .homepage-bar{border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;background-color:#fbfbfb}
 .homepage-bar .col-md-4{border-left:1px solid #e1e1e1;padding-top:20px;padding-bottom:21px}
 .homepage-bar .col-md-4:first-child{border-left:0}
-.homepage-bar i{font-size:34px;color:#000;display:inline-block;vertical-align:middle}
+.homepage-bar i{font-size:34px;color:#149e72;display:inline-block;vertical-align:middle}
 .homepage-bar i:before{width:auto}
 .homepage-bar .text-area{display:inline-block;vertical-align:middle;text-align:left;margin-left:5px}
 .homepage-bar h3{color:#313131;font-size:16px;margin:0;line-height:1.5}
