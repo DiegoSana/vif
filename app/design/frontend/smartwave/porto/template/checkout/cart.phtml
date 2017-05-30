@@ -33,7 +33,7 @@
                                 <th rowspan="<?php echo $mergedCells; ?>">&nbsp;</th>
                                 <th rowspan="<?php echo $mergedCells; ?>">&nbsp;</th>
                                 <th rowspan="<?php echo $mergedCells; ?>"><span class="nobr"><?php echo $this->__('Product Name') ?></span></th>
-                                <?php if ($this->helper('wishlist')->isAllowInCart()) : ?>
+                                <?php if (false/*$this->helper('wishlist')->isAllowInCart()*/) : ?>
                                     <th rowspan="<?php echo $mergedCells; ?>"><span class="nobr"><?php echo $this->__('Move to Wishlist') ?></span></th>
                                 <?php endif ?>
                                 <th colspan="<?php echo $mergedCells; ?>"><span class="nobr"><?php echo $this->__('Unit Price') ?></span></th>
