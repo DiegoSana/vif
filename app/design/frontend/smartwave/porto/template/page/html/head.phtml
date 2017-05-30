@@ -8,6 +8,7 @@
 <meta name="keywords" content="<?php echo htmlspecialchars($this->getKeywords()) ?>" />
 <meta name="robots" content="<?php echo htmlspecialchars($this->getRobots()) ?>" />
 <meta name="google-site-verification" content="4xe-XNWzqNyzTcp2jkAVc4x-R2PE_BOTyRuOghc7Abc" />
+
 <?php
     $theme = Mage::helper('porto');
     $charSubset = '&subset=latin';
@@ -21,6 +22,7 @@
 ?>
 <link rel="icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
 <link rel="shortcut icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
+<link rel="alternate" hreflang="es-AR" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);?>" />
 
 <?php //Include Google fonts character subsets (such as extended latin, cyrillic)
     if (isset($d['font']['primary_char_latin_ext']) && $d['font']['primary_char_latin_ext']==1 )
