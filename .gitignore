@@ -5,6 +5,7 @@
 /app/etc/local.xml
 /tmp/*
 /docs
+/downloader
 *.tar
 *.tar.gz
 *.gz
