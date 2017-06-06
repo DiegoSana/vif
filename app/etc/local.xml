@@ -58,7 +58,7 @@
         <routers>
             <adminhtml>
                 <args>
-                    <frontName><![CDATA[admin]]></frontName>
+                    <frontName><![CDATA[2017]]></frontName>
                 </args>
             </adminhtml>
         </routers>

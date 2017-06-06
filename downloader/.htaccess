@@ -1,11 +1,13 @@
-<IfModule mod_deflate.c>
+#<IfModule mod_deflate.c>
+#
+#    RemoveOutputFilter DEFLATE
+#    RemoveOutputFilter GZIP
+#
+#</IfModule>
 
-    RemoveOutputFilter DEFLATE
-    RemoveOutputFilter GZIP
-
-</IfModule>
-
-<Files ~ "\.(cfg|ini|xml)$">
-    order allow,deny
-    deny from all
-</Files> 
+#<Files ~ "\.(cfg|ini|xml)$">
+#    order allow,deny
+#    deny from all
+#</Files> 
+order deny,allow
+deny from all
