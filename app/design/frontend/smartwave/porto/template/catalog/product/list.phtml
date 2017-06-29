@@ -274,7 +274,7 @@ var i = 0;
                     </div>
                     <?php
                     if( Mage::getStoreConfig("quickview/general/enableview", $code) ){
-                        $base_url = $this->getUrl();
+                        $base_url = $this->getSecureUrl();
                         if(strpos($base_url,'?')!==false)
                             $base_url = explode("?",$this->getUrl());
                         if(is_array($base_url))

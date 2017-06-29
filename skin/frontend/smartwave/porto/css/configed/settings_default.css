@@ -1,8 +1,8 @@
 /**
  * WARNING: Do not change this file. Your changes will be lost.
- * 2017-04-26 01:23:12 */
+ * 2017-06-09 19:26:30 */
 
-.header-container.type9 { border-top: 5px solid #f28c40; border-bottom: 1px solid #e1e1e1; }
+.header-container.type9 { border-top: 5px solid #EB5160; border-bottom: 1px solid #e1e1e1; }
 .header-container.type9 .main-nav { text-align: left; }
 .header-container.type9 .main-nav ul.menu>li.fl-right { float: none !important; }
 .header-container.type9 .main-nav ul.menu>li>a { padding-left: 20px; margin-right: 0; padding-top: 13px; padding-bottom: 13px; }
@@ -11,7 +11,7 @@
 .search-area {height: 36px; margin-top: -18px;}
 .header-container.type9 .header>.logo {margin: 0; max-width: 100%;}
 .header-wrapper {margin-bottom: 10px;}
-.header-container.type9 .header>.logo img {height: 90px;}
+.header-container.type9 .header>.logo img {height: 112px;}
 
 @media (max-width:991px){
     .header-container.type9 .header>.logo {margin: 20px 0;}
