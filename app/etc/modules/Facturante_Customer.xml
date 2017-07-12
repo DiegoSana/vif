@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Facturante_Customer>
-            <active>true</active>
+            <active>false</active>
             <codePool>local</codePool>
         </Facturante_Customer>
     </modules>
